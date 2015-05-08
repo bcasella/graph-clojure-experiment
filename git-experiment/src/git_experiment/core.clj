@@ -69,6 +69,12 @@
             (recur (concat (next-nodes g n) (rest open-list)))))))
 
 
+    (defn dijkstra [g root-node goal-node]
+      "Make the shortest path with  dijkstra. How to do with clojure ??"
+      (println "Omg, this should do something!")
+    )
+
+
 
 
     (defn read-lines [filename]
